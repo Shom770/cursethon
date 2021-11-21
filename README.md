@@ -5,7 +5,9 @@ The name of this repository is a portmanteau of 'cursed' and 'python', and this 
 Without furtherado, let's get started:
 
 ## Context-based function overloading
-[Context-based function overloading](https://github.com/Shom770/cursethon/blob/main/src/context_function_overloading.py) is function overloading based off how the function was called syntactically. This snippet creates a `contextdispatch` decorator of which the decorator's most important argument is the regular expression for determining the syntactic context.
+[See the source code](https://github.com/Shom770/cursethon/blob/main/src/context_function_overloading.py)
+
+Context-based function overloading is function overloading based off how the function was called syntactically. This snippet creates a `contextdispatch` decorator of which the decorator's most important argument is the regular expression for determining the syntactic context.
 
 I'm sure this sounds a bit confusing, so let's take the following example:
 ```py
