@@ -7,7 +7,7 @@ The name of this repository is a portmanteau of 'cursed' and 'python', and this 
 <details>
 <summary> Context-based function overloading </summary>
   
-<br>
+
 Context-based function overloading is function overloading based off how the function was called syntactically. This snippet creates a `contextdispatch` decorator of which the decorator's most important argument is the regular expression for determining the syntactic context.
 
 I'm sure this sounds a bit confusing, so let's take the following example:
