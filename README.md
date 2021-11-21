@@ -2,9 +2,11 @@
 A few snippets of code I've made while coding in Python that I thought were interesting or 'cursed', per se.
 The name of this repository is a portmanteau of 'cursed' and 'python', and this is a display repository showing some of the things I have made!
 
-Without furtherado, let's get started:
+# Snippets
 
-## Context-based function overloading
+<details>
+<summary> Context-based function overloading </summary>
+  
 [See the source code](https://github.com/Shom770/cursethon/blob/main/src/context_function_overloading.py)
 
 Context-based function overloading is function overloading based off how the function was called syntactically. This snippet creates a `contextdispatch` decorator of which the decorator's most important argument is the regular expression for determining the syntactic context.
@@ -36,3 +38,4 @@ print_single_digit wasn't called, raise_error was called though.
 ValueError: The number you provided is not single digit!
 ```
 showing the function dispatching based on a syntactic context.
+</details>
