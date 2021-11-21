@@ -8,8 +8,6 @@ The name of this repository is a portmanteau of 'cursed' and 'python', and this 
 <summary> Context-based function overloading </summary>
   
 <br>
-[See the source code](https://github.com/Shom770/cursethon/blob/main/src/context_function_overloading.py)
-
 Context-based function overloading is function overloading based off how the function was called syntactically. This snippet creates a `contextdispatch` decorator of which the decorator's most important argument is the regular expression for determining the syntactic context.
 
 I'm sure this sounds a bit confusing, so let's take the following example:
@@ -39,4 +37,7 @@ print_single_digit wasn't called, raise_error was called though.
 ValueError: The number you provided is not single digit!
 ```
 showing the function dispatching based on a syntactic context.
+
+[See the source code here](https://github.com/Shom770/cursethon/blob/main/src/context_function_overloading.py)
+
 </details>
